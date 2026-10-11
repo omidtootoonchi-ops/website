@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# AI crawlers explicitly allowed for llms.txt
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+Sitemap: https://omidtootoonchi.ir/sitemap.xml

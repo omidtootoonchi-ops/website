@@ -156,8 +156,8 @@ section h2 em{font-style:italic;color:var(--accent)}
 /* ===== ABOUT ===== */
 .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:72px;align-items:start}
 .about-portrait{position:relative;overflow:hidden;border-radius:var(--radius)}
-.about-portrait img{width:100%;aspect-ratio:3/4;object-fit:cover;object-position:-150px top;filter:grayscale(15%);transition:filter 0.6s,transform 0.6s}
-.about-portrait:hover img{filter:grayscale(0%);transform:scale(1.02)}
+.about-portrait img{width:100%;aspect-ratio:3/4;object-fit:cover;object-position:-150px top;filter:grayscale(15%);transform:scale(1.15);transition:filter 0.6s,transform 0.6s}
+.about-portrait:hover img{filter:grayscale(0%);transform:scale(1.17)}
 .about-text h3{font-family:var(--font-display);font-size:1.4rem;font-weight:400;margin-bottom:18px;line-height:1.35}
 .about-text p{color:var(--text-secondary);margin-bottom:14px;font-size:0.92rem}
 .about-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:36px;padding-top:36px;border-top:1px solid var(--border)}
@@ -358,6 +358,7 @@ section h2 em{font-style:italic;color:var(--accent)}
   .menu-grid-films{grid-template-columns:repeat(2,1fr)}
 }
 @media(max-width:768px){
+  .imdb-badge-link{display:none}
   header{padding:0 16px}
   section{padding:28px 16px}
   .breadcrumbs{padding-left:16px;padding-right:16px;padding-top:8px;padding-bottom:16px}
