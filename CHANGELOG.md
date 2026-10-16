@@ -3,6 +3,12 @@
 All notable changes to the omidtootoonchi.ir website are documented in this file.
 This project uses date-based versioning (`YYYY.MM.DD`).
 
+## [2026.10.16.1]
+
+### Fixed
+- **Duplicate without user-selected canonical** (Google Search Console): added `<link rel="canonical">` to every page and removed the duplicate `index.html` entry from `sitemap.xml` (only the canonical `https://omidtootoonchi.ir/` root remains).
+- **Page with redirect**: canonical URLs now consistently use the `https://` non-`www` apex, aligning the sitemap, canonical tags, and the HTTP→HTTPS redirect so Google indexes the canonical HTTPS URL.
+
 ## [2026.10.16]
 
 ### Added
